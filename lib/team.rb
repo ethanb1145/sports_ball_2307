@@ -9,9 +9,12 @@ class Team
     @roster = []
   end
 
-  def roster
-    roster  = []
+  def add_player(player)
+    @roster << player
   end
 
+  def player_count
+    @roster.length
+  end
 
 end

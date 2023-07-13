@@ -16,7 +16,7 @@ RSpec.describe Player do
 
   end
 
-  xit "can add people to the roster" do 
+  it "can add people to the roster" do 
     team = Team.new("Dodgers", "Los Angeles")
     player_1 = Player.new("Michael Palledorous", 1000000, 36)
     team.add_player(player_1)
