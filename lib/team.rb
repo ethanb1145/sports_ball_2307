@@ -8,4 +8,8 @@ class Team
     @city = city
   end
 
+  def roster
+    roster  = []
+  end
+
 end
